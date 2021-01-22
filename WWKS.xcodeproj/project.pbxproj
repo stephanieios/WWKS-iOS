@@ -13,6 +13,7 @@
 		9026623125BAB3A10025133C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9026622F25BAB3A10025133C /* Main.storyboard */; };
 		9026623325BAB3A40025133C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9026623225BAB3A40025133C /* Assets.xcassets */; };
 		9026623625BAB3A40025133C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9026623425BAB3A40025133C /* LaunchScreen.storyboard */; };
+		9026624025BAB4030025133C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9026623F25BAB4030025133C /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		9026623225BAB3A40025133C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9026623525BAB3A40025133C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9026623725BAB3A40025133C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9026623F25BAB4030025133C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9026624225BAB4490025133C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		9026621D25BAB3A10025133C = {
 			isa = PBXGroup;
 			children = (
+				9026624225BAB4490025133C /* README.md */,
 				9026622825BAB3A10025133C /* WWKS */,
 				9026622725BAB3A10025133C /* Products */,
 			);
@@ -56,10 +60,11 @@
 		9026622825BAB3A10025133C /* WWKS */ = {
 			isa = PBXGroup;
 			children = (
+				9026622F25BAB3A10025133C /* Main.storyboard */,
 				9026622925BAB3A10025133C /* AppDelegate.swift */,
 				9026622B25BAB3A10025133C /* SceneDelegate.swift */,
 				9026622D25BAB3A10025133C /* ViewController.swift */,
-				9026622F25BAB3A10025133C /* Main.storyboard */,
+				9026623F25BAB4030025133C /* Extensions.swift */,
 				9026623225BAB3A40025133C /* Assets.xcassets */,
 				9026623425BAB3A40025133C /* LaunchScreen.storyboard */,
 				9026623725BAB3A40025133C /* Info.plist */,
@@ -140,6 +145,7 @@
 				9026622E25BAB3A10025133C /* ViewController.swift in Sources */,
 				9026622A25BAB3A10025133C /* AppDelegate.swift in Sources */,
 				9026622C25BAB3A10025133C /* SceneDelegate.swift in Sources */,
+				9026624025BAB4030025133C /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephaniechiu.WWKS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephaniechiu.WWKS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
